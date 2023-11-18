@@ -1,0 +1,19 @@
+ls
+wr a 12345678901234567890
+wr a 1234567890
+wr b b2345678901234567890123456789012abc6
+wr a 123
+rd a
+rd b
+dd a
+dd b
+ls
+rm a
+rd a
+wr c 123456789012345678901234567890123
+rd c
+rd b
+dd c
+dd b
+ls
+qu

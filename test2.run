@@ -1,0 +1,33 @@
+ls
+wr a 12345678901234567890
+wr b b
+rd a
+rd b
+ls
+dd a
+dd b
+wr a 1234567890
+rd a
+ls
+dd a 
+wr a 1
+rd a
+ls
+dd a
+wr a 2
+rd a
+ls
+dd a
+wr a 3
+rd a
+ls
+dd a
+wr b 2345678901234567890123456789012
+rd b
+ls 
+dd b
+wr b abc6
+rd b
+ls
+dd b
+qu
