@@ -23,6 +23,7 @@ static struct Actions actions[ACTION_N] = {
 	{ "wr", 2, wr_action},
 	{ "rm", 1, rm_action},
 	{ "rd", 1, rd_action},
+    { "dd", 1, dd_action},
 // ...
 };
 

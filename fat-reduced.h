@@ -14,7 +14,7 @@
 #define DIR_N 64
 #define FAT_N 128
 #define CLUSTER_N (FAT_N)
-#define ACTION_N 5
+#define ACTION_N 6
 
 #define FAT_FREE 0
 #define FAT_LAST -1
@@ -56,6 +56,7 @@ int ls_action(int, char *[]) ;
 int wr_action(int, char *[]) ;
 int rm_action(int, char *[]) ;
 int rd_action(int, char *[]) ;
+int dd_action(int, char *[]) ;
 // ...
 
 

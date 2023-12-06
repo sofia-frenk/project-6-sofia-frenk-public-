@@ -1,0 +1,13 @@
+wr a 12345678901234567890
+ls
+dd a
+wr b hello
+ls
+wr a 1234567891234567890
+wr b hellohellohellohellohellohellohello
+dd a
+dd b
+rd a
+rd b
+ls
+qu
